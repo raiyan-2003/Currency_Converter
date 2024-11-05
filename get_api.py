@@ -1,6 +1,6 @@
 import requests
 
-API_COMPLETED = 200
+API_COMPLETED = 200  # .status code sends 200 constant in order to signal completion
 
 response = requests.get('https://api.fxratesapi.com/latest')
 
